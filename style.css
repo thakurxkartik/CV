@@ -1,0 +1,29 @@
+body{
+    background-color: #222831;
+    color: #00ADB5;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color:whitesmoke;
+    border-width: 5px;
+    height:0px;
+    width: 5%;
+}
+img{
+    height: auto;
+    width: auto;
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+h1{
+    color:whitesmoke
+}
+h2{
+    color:whitesmoke
+}
+h3{
+    color:whitesmoke
+}
