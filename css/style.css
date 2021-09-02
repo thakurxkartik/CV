@@ -1,0 +1,165 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    min-height: 100%;
+    background: linear-gradient(to right top, #13c4db, #6cdbeb);    
+    text-align: center;
+    font-family: 'Gowun Dodum', sans-serif;
+}
+
+.first{
+    background-color: white;
+    background: linear-gradient(
+        to right bottom, 
+        rgba(255, 255, 255, 0.6), 
+        rgba(255, 255, 255, 0.2)
+    );
+    border-radius: 1rem;
+    margin: 2%;
+    padding: 0%;
+    width: auto;
+    height: 70vh;
+    position: relative;
+}
+    
+.image{
+    border-radius: 50%;
+    position:absolute;
+    top: 5%;
+    left: 5%;
+    z-index: 2;
+}
+
+.topCloud{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    z-index: 1;
+    width: auto;
+    height: auto;
+}
+
+h1{
+    font-size: 300%;
+    font-family: 'Berkshire Swash', cursive;    
+    position: absolute;
+    top: 10%;
+    left: 43%;
+    z-index: 3;   
+}
+
+.introduction{
+    font-size: 120%;
+    position: absolute;
+    top: 25%;
+    left: 43%;
+    z-index: 3;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.bottomCloud{
+    position: absolute;
+    right: 5%;
+    top: 40%;
+    z-index: 1;
+}
+
+.mountain{
+    width: 100%;
+    height: 100%;
+    padding:0%;
+    margin: 0%;
+    border-radius: 1rem;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    z-index: 1;
+}
+
+.second{
+    background-color: white;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.6),
+        rgba(255, 255, 255, 0.2)
+    );
+    border-radius: 1rem;
+    margin: 2%;
+    padding: 1%;
+    padding-bottom: 5%;
+    width: auto;
+    position: relative;
+}
+
+.third{
+    background-color: white;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.6),
+        rgba(255, 255, 255, 0.2)
+    );
+    border-radius: 1rem;
+    margin: 2%;
+    padding: 1%;
+    width: auto;
+    position: relative;
+}
+
+.skill-table{
+    display: flex;
+    justify-content: center;
+}
+
+.skill-row{
+    display: flex;
+    flex: 1;
+}
+
+.star{
+    flex:1;
+}
+
+.fourth{
+    background-color: white;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.6),
+        rgba(255, 255, 255, 0.2)
+    );
+    border-radius: 1rem;
+    margin: 2%;
+    padding: 1%;
+    width: auto;
+    position: relative;
+}
+
+.fifth{
+    background-color: white;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.6),
+        rgba(255, 255, 255, 0.2)
+    );
+    border-radius: 1rem;
+    margin: 2%;
+    padding: 1%;
+    width: auto;
+    position: relative;
+}
+
+.btn{
+    display: flex;
+    height: auto;
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-link{
+    width: 70%;
+    justify-content: space-around;
+}
